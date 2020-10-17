@@ -43,6 +43,7 @@ func attack(s string, l []string) {
 	}
 	if !find {
 		fmt.Printf("Hash not found !\n")
+		fmt.Printf("May use a larger wordlist\n")
 		fmt.Printf("Total time : ")
 	}
 }
